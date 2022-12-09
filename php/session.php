@@ -10,7 +10,6 @@ $userid = $_SESSION['userid'] = "dmstjfgus";
 
 if(isset($_SESSION['userid'])){
     $userid=$_SESSION['userid'];
-
 }else{
     echo "세션없음";
 }
